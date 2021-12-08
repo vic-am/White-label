@@ -27,14 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.toolbarMain.setupWithNavController(navController, appBarConfiguration)
 
-        //TODO lembrar de procurar a peppa no fragment
-        //TODO lembrar de procurar a peppa no fragment
-        //TODO lembrar de procurar a peppa no fragment
-        //TODO lembrar de procurar a peppa no fragment
-        //TODO lembrar de procurar a peppa no fragment
-        //TODO lembrar de procurar a peppa no fragment
-        //TODO lembrar de procurar a peppa no fragment
-        //TODO lembrar de procurar a peppa no fragment
+        //TODO'S ARRUMADOS
 
     }
 }
