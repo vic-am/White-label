@@ -7,6 +7,8 @@ plugins {
 apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-parcelize'
 
+apply plugin: 'com.google.gms.google-services'
+
 android {
     compileSdk 31
 

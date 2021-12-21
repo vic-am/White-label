@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "561357044290",
+    "project_id": "vic-am-whitelabel",
+    "storage_bucket": "vic-am-whitelabel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561357044290:android:2c72e3a9ef712174040bdb",
+        "android_client_info": {
+          "package_name": "com.victoramaral.whitelabel.bike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561357044290-gbqj2k55vrobshva0khiv54capeg5bh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCUWC0lzmk0n8ZGkJYXZB7z40bP3Nh67g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561357044290-gbqj2k55vrobshva0khiv54capeg5bh9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561357044290:android:7367b19733fbb4f6040bdb",
+        "android_client_info": {
+          "package_name": "com.victoramaral.whitelabel.bike.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561357044290-gbqj2k55vrobshva0khiv54capeg5bh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCUWC0lzmk0n8ZGkJYXZB7z40bP3Nh67g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561357044290-gbqj2k55vrobshva0khiv54capeg5bh9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561357044290:android:15744b2b6fb1a423040bdb",
+        "android_client_info": {
+          "package_name": "com.victoramaral.whitelabel.car"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561357044290-gbqj2k55vrobshva0khiv54capeg5bh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCUWC0lzmk0n8ZGkJYXZB7z40bP3Nh67g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561357044290-gbqj2k55vrobshva0khiv54capeg5bh9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561357044290:android:2c0cb874446a2a82040bdb",
+        "android_client_info": {
+          "package_name": "com.victoramaral.whitelabel.car.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561357044290-gbqj2k55vrobshva0khiv54capeg5bh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCUWC0lzmk0n8ZGkJYXZB7z40bP3Nh67g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561357044290-gbqj2k55vrobshva0khiv54capeg5bh9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
