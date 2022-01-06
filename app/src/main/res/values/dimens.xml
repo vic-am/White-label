@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="default_140dp">140dp</dimen>
+    <dimen name="default_16dp">16dp</dimen>
+    <dimen name="default_40dp">40dp</dimen>
+    <dimen name="default_30dp">30dp</dimen>
+</resources>
