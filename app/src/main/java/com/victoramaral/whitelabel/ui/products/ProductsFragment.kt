@@ -17,7 +17,7 @@ class ProductsFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = ProductsFragmentBinding.inflate(inflater, container, false)
+        _binding = ProductsFragmentBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
 }
