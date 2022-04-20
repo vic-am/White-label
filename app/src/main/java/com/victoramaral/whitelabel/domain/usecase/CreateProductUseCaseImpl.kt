@@ -4,8 +4,9 @@ import android.net.Uri
 import com.victoramaral.whitelabel.data.ProductRepository
 import com.victoramaral.whitelabel.domain.model.Product
 import java.util.*
+import javax.inject.Inject
 
-class CreateProductUseCaseImpl(
+class CreateProductUseCaseImpl @Inject constructor(
     private val uploadProductImageUseCase: UploadProductImageUseCase,
     private val productRepository: ProductRepository
 ) : CreateProductUseCase {

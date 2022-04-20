@@ -2,8 +2,9 @@ package com.victoramaral.whitelabel.domain.usecase
 
 import com.victoramaral.whitelabel.data.ProductRepository
 import com.victoramaral.whitelabel.domain.model.Product
+import javax.inject.Inject
 
-class GetProductsUseCaseImpl(
+class GetProductsUseCaseImpl @Inject constructor(
     private val productRepository: ProductRepository
 ) : GetProductsUseCase {
 
