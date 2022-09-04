@@ -23,17 +23,18 @@ class AddProductFragment : BottomSheetDialogFragment() {
 
     private val viewModel: AddProductViewModel by viewModels()
 
-    private val getContent =
-        registerForActivityResult(ActivityResultContracts.GetContent()) {
-            imageURI = it
-            binding.imageProduct.setImageURI(it)
+    private val getContent = registerForActivityResult(
+        ActivityResultContracts.GetContent()
+    ) {
+        imageURI = it
+        binding.imageProduct.setImageURI(it)
 
-        }
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = AddProductFragmentBinding.inflate(inflater, container, false)
         return binding.root
 
@@ -57,7 +58,6 @@ class AddProductFragment : BottomSheetDialogFragment() {
         viewModel.priceFieldErrorResId.observe(viewLifecycleOwner) {
             binding.inputLayoutPrice.setError(it)
         }
-
     }
 
     private fun setListener() {

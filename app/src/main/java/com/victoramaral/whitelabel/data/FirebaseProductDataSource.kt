@@ -45,7 +45,7 @@ class FirebaseProductDataSource @Inject constructor(
     override suspend fun uploadProductImage(imageUri: Uri): String {
         return suspendCoroutine { continuation ->
             val randomKey =
-                UUID.randomUUID() //TODO Verificar se existe uma maneira melhor de definir a chave
+                UUID.randomUUID()
             val childReference = storageReference.child(
                 "$STORAGE_IMAGES/${BuildConfig.FIREBASE_FLAVOR_COLLECTION}/$randomKey"
             )

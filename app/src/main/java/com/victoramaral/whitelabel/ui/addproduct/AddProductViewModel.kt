@@ -31,14 +31,15 @@ class AddProductViewModel @Inject constructor(
 
     fun createProduct(description: String, price: String, imageURI: Uri?) =
         viewModelScope.launch {
+            isFormValid = true
+
             _imageUriErrorResId.value = getDrawableBackgroundIfFieldIsEmpty(imageURI)
             _descriptionFieldErrorResId.value = getErrorStringIfFieldIsEmpty(description)
             _priceFieldErrorResId.value = getErrorStringIfFieldIsEmpty(price)
 
             if (isFormValid) {
                 try {
-                    val product =
-                        createProductUseCase(description, price.fromCurrency(), imageURI!!)
+                    val product = createProductUseCase(description, price.fromCurrency(), imageURI!!)
                 } catch (e: Exception) {
                     Log.d("CreateProduct", e.toString())
                 }
