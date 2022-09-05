@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_main"
-    app:startDestination="@id/addProductFragment">
+    app:startDestination="@id/products_fragment">
 
     <fragment
-        android:id="@+id/nav_products_fragment"
+        android:id="@+id/products_fragment"
         android:name="com.victoramaral.whitelabel.ui.products.ProductsFragment"
         android:label="@string/products_screen_title"
         tools:layout="@layout/products_fragment">
